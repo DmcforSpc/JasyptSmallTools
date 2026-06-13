@@ -1,5 +1,4 @@
 import org.jasypt.encryption.pbe.StandardPBEStringEncryptor;
-import java.util.Base64;
 
 public class Encrypt {
     public static String encrypt(String plaintext, String password) {
